@@ -5,6 +5,7 @@
     {
 
          //Initial test update to github
+         //Another test update to github with new branch: feature/branch1
         await page.goto("https://rahulshettyacademy.com/client/");
         console.log(await page.title());
         await expect(page).toHaveTitle("Let's Shop");
