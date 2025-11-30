@@ -4,6 +4,7 @@
   test('Client Registration', async ({page})=>
     {
 
+         //Initial test update to github
         await page.goto("https://rahulshettyacademy.com/client/");
         console.log(await page.title());
         await expect(page).toHaveTitle("Let's Shop");
