@@ -1,0 +1,25 @@
+{
+  "name": "playwrightautomation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "web1": "npx playwright test --grep web1",
+    "Regression": "npx playwright test",
+    "FireFox": "npx playwright test --config=playwright.config1.js --project=firefox",
+    "cumcumberRun": "npx cucumber-js features/Ecom.feature --parallel 2 --format html:cucumber-report.html"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@playwright/test": "^1.51.1",
+    "@types/node": "^22.14.0",
+    "allure-playwright": "^3.4.2",
+    "typescript": "^5.9.3"
+  },
+  "dependencies": {
+    "@cucumber/cucumber": "^12.2.0"
+  }
+}

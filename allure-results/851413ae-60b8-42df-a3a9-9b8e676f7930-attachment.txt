@@ -1,0 +1,9 @@
+Let's Shop
+Register
+Following email :test6577@gmail.com
+Promise {
+  <pending>,
+  [Symbol(async_id_symbol)]: 9577,
+  [Symbol(trigger_async_id_symbol)]: 7883,
+  [Symbol(kResourceStore)]: undefined
+}
