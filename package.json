@@ -14,7 +14,8 @@
   "license": "ISC",
   "type": "commonjs",
   "devDependencies": {
-    "@playwright/test": "^1.51.1",
+    "@playwright/mcp": "^0.0.55",
+    "@playwright/test": "^1.57.0",
     "@types/node": "^22.14.0",
     "allure-playwright": "^3.4.2",
     "typescript": "^5.9.3"
